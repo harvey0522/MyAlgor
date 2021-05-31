@@ -1,5 +1,7 @@
 # MyAlgor
 ##1.1
+eval `ssh-agent -s`
+ssh-add 
 ##2.1
 ```java
 public class person{
