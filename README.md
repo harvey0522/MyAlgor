@@ -1,5 +1,16 @@
 # MyAlgor
-1.[]数据结构
+##1.1
+##2.1
+```java
+public class person{
+}
+```
+```jvm
+-Xms
+```
+```spi
+```
+****1.数据结构****
 
     [x]数组
 

@@ -4,7 +4,7 @@ public class RemoveRepeatNunm {
     public static void main(String[] args) {
         int[] nums={1,1,1,2,2,3,3,3,5,7};
         //int[] nums={1,2,5,7,9,9};
-        System.out.println(get(nums));
+        System.out.println(removeDuplicates(nums));
     }
 
     /**
@@ -13,7 +13,7 @@ public class RemoveRepeatNunm {
      * @param nums
      * @return
      */
-    public static int get(int[] nums){
+    public static int removeDuplicates(int[] nums){
         int slow=0;
         int fast=1;
        while(fast<nums.length){
