@@ -26,12 +26,28 @@ public class MyLinkedNode {
         MyLinkedNode myLinkedNode3=new MyLinkedNode("c");
         MyLinkedNode myLinkedNode4=new MyLinkedNode("d");
         MyLinkedNode myLinkedNode5=new MyLinkedNode("e");
+        MyLinkedNode myLinkedNode6=new MyLinkedNode("f");
+
 
         myLinkedNode.setNext(myLinkedNode2);
         myLinkedNode2.setNext(myLinkedNode3);
         myLinkedNode3.setNext(myLinkedNode4);
         myLinkedNode4.setNext(myLinkedNode5);
-        myLinkedNode5.setNext(myLinkedNode2);
+        myLinkedNode5.setNext(myLinkedNode6);
+        myLinkedNode6.setNext(myLinkedNode3);
+        return myLinkedNode;
+    }
+
+    public static MyLinkedNode build2(){
+        MyLinkedNode myLinkedNode=new MyLinkedNode("a");
+        MyLinkedNode myLinkedNode2=new MyLinkedNode("b");
+        MyLinkedNode myLinkedNode3=new MyLinkedNode("c");
+        MyLinkedNode myLinkedNode4=new MyLinkedNode("d");
+
+
+        myLinkedNode.setNext(myLinkedNode2);
+        myLinkedNode2.setNext(myLinkedNode3);
+        myLinkedNode3.setNext(myLinkedNode4);
         return myLinkedNode;
     }
 }
