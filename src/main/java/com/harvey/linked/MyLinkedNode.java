@@ -43,11 +43,13 @@ public class MyLinkedNode {
         MyLinkedNode myLinkedNode2=new MyLinkedNode("b");
         MyLinkedNode myLinkedNode3=new MyLinkedNode("c");
         MyLinkedNode myLinkedNode4=new MyLinkedNode("d");
+        MyLinkedNode myLinkedNode5=new MyLinkedNode("e");
 
 
         myLinkedNode.setNext(myLinkedNode2);
         myLinkedNode2.setNext(myLinkedNode3);
         myLinkedNode3.setNext(myLinkedNode4);
+        myLinkedNode4.setNext(myLinkedNode5);
         return myLinkedNode;
     }
 }
