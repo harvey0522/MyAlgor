@@ -24,6 +24,22 @@ public class ForEachTreeNodeMain {
         return root;
     }
 
+    protected static TreeNode build2(){
+        TreeNode root=new TreeNode(6,"a");
+        TreeNode left =new TreeNode(3,"b");
+        TreeNode right =new TreeNode(8,"c");
+        TreeNode leftleft =new TreeNode(7,"d");
+        TreeNode leftOfright =new TreeNode(12,"e");
+        TreeNode rightOfright =new TreeNode(14,"f");
+
+        root.setLeft(left);
+        root.setRight(right);
+        left.setLeft(leftleft);
+        left.setRight(leftOfright);
+        right.setRight(rightOfright);
+        return root;
+    }
+
     public static void midle(TreeNode node){
         if(node == null){
             return;
